@@ -1,0 +1,361 @@
+.aboutMain {
+  margin: 3rem auto;
+  width: 50%;
+}
+
+@media (min-width: 600px) {
+  .aboutMain {
+    width: 100%;
+    margin: 5rem 0;
+    margin-top: 4%;
+  }
+}
+
+.paragraph {
+  font-size: 2rem;
+}
+
+@media (min-width: 600px) {
+  .paragraph {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .span {
+    display: block;
+    text-align: center;
+  }
+}
+
+.image {
+  display: border-box;
+  width: 90%;
+  background-color: #313131;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+@media screen and (min-width: 600px) {
+  .image {
+    width: 90%;
+    background-color: #313131;
+    margin-top: 0;
+    padding-bottom: 100px;
+  }
+}
+
+.row {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  .row {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .row {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .row {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .row {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .row {
+    display: flex;
+  }
+}
+@media screen and (min-width: 3840px) {
+  .row {
+    display: flex;
+  }
+}
+
+.column {
+  flex: 20%;
+  padding: 40px;
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.containerSubTwo {
+  margin-top: 3%;
+}
+
+.images {
+  width: 90%;
+  margin-left: 2%;
+}
+
+@media screen and (min-width: 800px) {
+  .containerSub {
+    width: 48%;
+    height: 100px;
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .containerSubTwo {
+    width: 48%;
+    height: 100px;
+    margin: auto;
+    margin-top: 2%;
+    margin-right: 2%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .containerSubFour {
+    width: 48%;
+    height: 100px;
+    margin: auto;
+    margin-left: 2%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .containerSubFive {
+    width: 48%;
+    height: 100px;
+    margin: auto;
+    margin-right: 2%;
+  }
+}
+
+.containerSubThree {
+  margin-left: 2%;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.containerSubFour {
+  margin-top: 3%;
+}
+
+.containerSubFive {
+  margin-top: 3%;
+}
+
+@media screen and (min-width: 800px) {
+  .containerSubThree {
+    width: 97%;
+    margin-top: 25%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+  }
+}
+
+.imagethree {
+  width: 90%;
+  height: 300px;
+}
+
+@media screen and (min-width: 600px) {
+  .imagethree {
+    width: 94%;
+  }
+}
+
+.sectheader {
+  color: rgb(85, 207, 198);
+  font-size: 0.7rem;
+}
+
+.sectpara {
+  color: rgb(85, 207, 198);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.containerSub {
+  position: relative;
+  text-align: center;
+}
+
+.containerSubTwo {
+  position: relative;
+  text-align: center;
+}
+
+.containerSubThree {
+  position: relative;
+  text-align: center;
+}
+
+.containerSubFour {
+  position: relative;
+  text-align: center;
+}
+
+.containerSubFive {
+  position: relative;
+  text-align: center;
+}
+
+.imgSection {
+  position: absolute;
+  top: 50%;
+  width: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.imgSectionTwo {
+  position: absolute;
+  top: 50%;
+  width: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.imgSectionThree {
+  position: absolute;
+  top: 50%;
+  width: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.imgSectionFour {
+  position: absolute;
+  top: 50%;
+  width: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.imgSectionFive {
+  position: absolute;
+  top: 50%;
+  width: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+@media screen and (min-width: 700px) {
+  .imgSection {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .imgSectionTwo {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .imgSectionFour {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .imgSectionFive {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .imgSectionThree {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .imgSection {
+    position: absolute;
+    top: 350%;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+  }
+
+  .imgSectionTwo {
+    position: absolute;
+    top: 350%;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+  }
+
+  .imgSectionFour {
+    position: absolute;
+    top: 350%;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+  }
+
+  .imgSectionFive {
+    position: absolute;
+    top: 350%;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+  }
+
+  .imgSectionThree {
+    position: absolute;
+    top: 70%;
+    width: 80%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    margin-bottom: 25%;
+  }
+}

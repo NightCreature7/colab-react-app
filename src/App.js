@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+import Home from "./components/pages/Home";
+import Recruitmentpage from "./components/pages/Recruitmentpage";
+import Authenticcommunication from "./components/pages/Authenticcommunication";
+import Adviceleaders from "./components/pages/Adviceleaders";
+import Femaleentrepreneur from "./components/pages/Femaleentrepreneur";
+import Researchpage from "./components/pages/Researchpage";
+import Notfound from "./components/pages/Notfound";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/recruitment-day" element={<Recruitmentpage />} />
+        <Route
+          path="/authentic-communication"
+          element={<Authenticcommunication />}
+        />
+        <Route path="/advice-leaders" element={<Adviceleaders />} />
+        <Route path="/female-entrepreneurs" element={<Femaleentrepreneur />} />
+        <Route path="/research-colab" element={<Researchpage />} />
+        <Route path="/notfound" element={<Notfound />} />
+        <Route path="/*" element={<Notfound />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
