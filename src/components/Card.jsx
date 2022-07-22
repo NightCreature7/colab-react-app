@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Spinner from "./Spinner";
 
-const baseURL = "https://jsonkeeper.com/b/I6CD";
+const baseURL = "https://api.jsonserve.com/_R8HN6";
 
 export default function Card() {
   const [news, setNews] = React.useState(null);
