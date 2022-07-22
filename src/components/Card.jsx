@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Spinner from "./Spinner";
 
-const baseURL = "https://colab-react-app.vercel.app/news";
+const baseURL = "https://colab-react-app.vercel.app:5000/news";
 
 export default function Card() {
   const [news, setNews] = React.useState(null);
