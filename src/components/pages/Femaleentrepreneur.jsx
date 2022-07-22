@@ -2,7 +2,7 @@ import axios from "axios";
 import React from "react";
 import Rstyle from "../../styles/Newsevents.module.css";
 
-const baseURL = "https://colab-react-app.vercel.app//news";
+const baseURL = "http://localhost:5000/news";
 
 export default function Femaleentrepreneur() {
   const [news, setNews] = React.useState(null);
