@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Spinner from "./Spinner";
 
-const baseURL = "http://localhost:5000/news";
+const baseURL =
+  "https://my-json-server.typicode.com/NightCreature7/colab-nextjs/news";
 
 export default function Card() {
   const [news, setNews] = React.useState(null);

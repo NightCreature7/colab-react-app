@@ -45,3 +45,8 @@ body {
 .carousel-container {
   background-color: rgb(93, 197, 192);
 }
+
+html,
+body {
+  overflow-x: hidden;
+}

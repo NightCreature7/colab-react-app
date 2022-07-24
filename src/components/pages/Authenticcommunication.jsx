@@ -2,7 +2,8 @@ import axios from "axios";
 import React from "react";
 import Rstyle from "../../styles/Newsevents.module.css";
 
-const baseURL = "http://localhost:5000/news";
+const baseURL =
+  "https://my-json-server.typicode.com/NightCreature7/colab-nextjs/news";
 
 export default function Authenticcommunication() {
   const [news, setNews] = React.useState(null);
